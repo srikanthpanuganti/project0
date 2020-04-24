@@ -16,7 +16,7 @@ html, body, .carousel-inner img {
   border-top: 2px solid #b4b4b4;
   width: 25%; }
 
-.fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-facebook:hover {
+.fa-twitter:hover,.fa-youtube:hover, .fa-facebook:hover {
   color: #d5d5d5; }
 
 footer {
@@ -170,4 +170,4 @@ div > p::selection {
   .display-4 {
     font-size: 160%; } }
 
-/*# sourceMappingURL=style1.css.map */
+
