@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+html, body, p {
+  font-family: "poppins","sans-serif";
+  color: #222;
+  text-align: justify; }
+
+html, body, .carousel-inner img {
+  height: 100%;
+  width: 100%; }
+
+.col-xs-12 {
+  width: 100%; }
+
+.padding1 {
+  padding-bottom: 0rem; }
+
+.jumbotron {
+  padding: 0rem;
+  border-radius: 0rem; }
+
+.carousel-caption h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: Averta;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff; }
+
+h2 {
+  text-align: justify;
+  font-weight: bold;
+  padding: 0rem; }
+
+.fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover {
+  color: #d5d5d5; }
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding: 0rem; }
+
+.padding {
+  padding-bottom: 2rem; }
+
+.text-center hr {
+  border-top: 2px solid #b4b4b4;
+  width: 25%; }
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible; }
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-85%); }
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000; }
+
+.navbar {
+  padding: .8rem; }
+
+.navbar-nav li {
+  padding-right: 20px; }
+
+.nav-link {
+  font-size: 1.1em !important; }
+
+[class*="col-"] {
+  padding: 1rem; }
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c; }
+
+.btn-primary:hover {
+  background-color: turquoise;
+  border: 1px solid teal; }
+
+div > p::selection {
+  color: red;
+  background-color: greenyellow; }
+
+.footer1 {
+  text-align: center; }
+
+.social a {
+  font-size: 3em;
+  padding: 1em; }
+
+.fa-twitter {
+  color: #00aced; }
+
+.fa-youtube {
+  color: #bb0000; }
+
+.fa-facebook {
+  color: #3b5998; }
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 3em;
+    padding: 1em; }
+
+  .carousel-caption {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-90%); }
+
+  .carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000; } }
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%); }
+
+  .carousel-caption h1 {
+    font-size: 300%;
+    text-transform: uppercase; }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2em; } }
+@media (max-width: 576px) {
+  .carousel-caption {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%); }
+
+  .carousel-caption h1 {
+    font-size: 200%;
+    text-transform: uppercase; }
+
+  .social a {
+    font-size: 2rem;
+    padding: .7rem; } }
+
+/*# sourceMappingURL=historicplaces.css.map */

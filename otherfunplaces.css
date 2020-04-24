@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+html, body, p {
+  font-family: "poppins","sans-serif";
+  color: #222;
+  text-align: justify; }
+
+html, body, .carousel-inner img {
+  height: 100%;
+  width: 100%; }
+
+.padding1 {
+  padding-bottom: 0rem; }
+
+.jumbotron {
+  padding: 0rem;
+  border-radius: 0; }
+
+.fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-facebook:hover, .fa-envelope-open {
+  color: #d5d5d5; }
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding: 0rem; }
+
+.text-center hr, .my-4, .welcome hr, .fun {
+  border-top: 2px solid #b4b4b4; }
+
+.my-4, .welcome hr, .fun {
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.text-center hr {
+  width: 20%; }
+
+.my-4 {
+  width: 100%; }
+
+.welcome hr, .fun {
+  width: 80%; }
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%); }
+
+.padding {
+  padding-bottom: 2rem; }
+
+.navbar {
+  padding: .8rem; }
+
+.navbar-nav li {
+  padding-right: 20px; }
+
+.nav-link {
+  font-size: 1.1em !important; }
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible; }
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000; }
+
+[class*="col-"] {
+  padding: 1rem; }
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem; }
+
+div > p::selection {
+  color: red;
+  background-color: greenyellow; }
+
+.footer1 {
+  text-align: center; }
+
+.social a {
+  font-size: 3em;
+  padding: 1em;
+  align-self: center; }
+
+.fa-twitter {
+  color: #00aced; }
+
+.fa-facebook {
+  color: #3b5998; }
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c; }
+
+.btn-primary:hover {
+  background-color: turquoise;
+  border: 1px solid teal; }
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 3em;
+    padding: 1em; }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  .carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000; } }
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%); }
+
+  .carousel-caption h1 {
+    font-size: 300%;
+    text-transform: uppercase; }
+
+  .display-4 {
+    font-size: 200%; }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2em; } }
+@media (max-width: 576px) {
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-10%); }
+
+  .carousel-caption h1 {
+    font-size: 200%; }
+
+  .display-4 {
+    font-size: 200%; }
+
+  .social a {
+    font-size: 2rem;
+    padding: .7rem; } }
+
+/*# sourceMappingURL=otherfunplaces.css.map */
