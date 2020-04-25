@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
-p {
+p, html, body {
   font-family: "poppins","sans-serif";
   color: #222;
   text-align: justify; }
@@ -64,7 +64,7 @@ footer {
   padding-right: 20px; }
 
 .nav-link {
-  font-size: 1.1em !important; }
+  font-size: 1.1em!important; }
 
 .carousel-item {
   transition: -webkit-transform 0.5s ease;

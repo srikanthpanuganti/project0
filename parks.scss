@@ -18,6 +18,9 @@ p{
 .carousel-inner img{
     @extend %message2;
 }
+html, body {
+    @extend %message1;
+}
 
 $color: #d5d5d5;
 
