@@ -20,6 +20,7 @@ p{
 }
 html, body {
     @extend %message1;
+    @extend %message2;
 }
 
 $color: #d5d5d5;

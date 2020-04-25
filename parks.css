@@ -4,7 +4,7 @@ p, html, body {
   color: #222;
   text-align: justify; }
 
-.carousel-inner img {
+.carousel-inner img, html, body {
   height: 100%;
   width: 100%; }
 
